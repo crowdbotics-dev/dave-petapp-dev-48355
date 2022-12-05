@@ -1,4 +1,3 @@
-import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { TextInput } from "react-native";
 import React from "react";
@@ -8,7 +7,7 @@ const Untitled2 = ({
   navigation
 }) => {
   return <View style={_styles.JFdnnDJC}>
-      <Text style={_styles.EmuXhvvU}>Customer</Text><TextInput style={_styles.prfmHMce}></TextInput><Text style={_styles.sJYWVeic}>Customer</Text><TextInput style={_styles.fwmPegIJ}></TextInput><Pressable onPress={() => navigation.navigate("Untitled1")}><View style={_styles.cMSqapfe}><Text style={_styles.aatLUvKB}>View My Pets</Text></View></Pressable></View>;
+      <Text style={_styles.sJYWVeic}>Breed</Text><TextInput style={_styles.fwmPegIJ}></TextInput></View>;
 };
 
 export default Untitled2;
